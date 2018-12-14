@@ -902,13 +902,12 @@ border: 2px solid #fff;
     width: 100%;
     text-align:center;
 	background-color:none;
-	margin-top: 5%;
+	margin-top: 1%;
 
 }
 .okno {
 	width: 70%;
 	height: 100%;
-    padding: 10px;
     text-align:center;
     background-color: #fff;
     border-radius: 5px;
