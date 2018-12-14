@@ -10,6 +10,7 @@
 .w3-left-align{text-align:left!important}.w3-right-align{text-align:right!important}.w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
 
 .quiz1left {
+    height: 100%;
 	  width: 70%;
     font-size: 30px;
     float: left;
@@ -118,7 +119,7 @@ width: 140px;
 }
 .row3:after {
   content: '';
- /* display: block;*/
+  display: block;
   clear: both;
 }
 .row4 {
@@ -156,7 +157,7 @@ width: 140px;
 
 .pro999:after {
   content: '';
- /* display: block;*/
+  display: block;
   clear: both;
 }
 #q_title {
@@ -275,13 +276,14 @@ width: 140px;
 }
 
 .right_text {
-  margin-bottom: 40%;
+
 }
 
 
 .right_footer {
-  margin-top: 90%;
+  margin-top: 80%;
   margin-right: 5%;
+
 }
 
 .right_footer:after  {
