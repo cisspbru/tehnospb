@@ -29,8 +29,9 @@
     text-align: center;
     margin-left: 70%;
     font-size: 18px;
-    padding: 1%;
-
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .check {
   cursor: pointer;
@@ -271,19 +272,11 @@ width: 140px;
   background-color:rgba(211, 211, 211, 0.5);
 }
 
-.right_img {
-  margin-top: 10%;
-}
 
-.right_text {
-
-}
 
 
 .right_footer {
-  margin-top: 80%;
-  margin-right: 5%;
-
+  margin-top: 40%;
 }
 
 .right_footer:after  {
@@ -295,8 +288,17 @@ width: 140px;
 
 .rf_img {
   float: left;
+
 }
 
 .rf_text {
   font-size: 14px;
+}
+
+.q3_street {
+  font-size: 18px;
+}
+
+.q3_home {
+  font-size: 18px;
 }
