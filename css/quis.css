@@ -11,30 +11,42 @@
 
 .quiz1left {
 
-    display: table;
-    height: 100%;
-	  width: 70%;
+    display: block;
     font-size: 30px;
     float: left;
     background-color:rgba(211, 211, 211, 0.1);
-   
-
 }
-
-/*.quiz1left:after {
-    content: '';
-    display: block;
-    clear: both;
-}*/
-
 .quiz1right {
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    padding-top: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
+.client-part .container .calculate {
+  width: 800px;
+  height: 600px;
+  background-image: url(../img/calculator.jpg);
+  background-size: contain;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #000;
+}
+.c_1 {
+  margin-left: 50%;
+  background-color: rgba(211, 211, 211, 0.9);
+  font-size: 20px;
+  margin-right: 7%;
+  margin-top: 10%;
+  padding: 5%;
+  border-radius: 5px;
+}
+.pony {
+  background-color:rgba(211, 211, 211, 0.1);
+  height: 100%;
+}
+
 .check {
   cursor: pointer;
   position: relative;
@@ -100,32 +112,31 @@ float: left;
 margin: 10px;
 margin-top: 30px;
 font-size: 20px;
-height: 200px;
+height: 170px;
 width: 140px;
 }
-
 .radio1:hover {
   box-shadow: 0px 0px 10px #000000;
 }
-
+.radio1 label .img-radio1 img {
+  margin-bottom: 0px;
+}
 .row1 {
 display: table;
 height: 100%;
-
+width: 100%;
 }
-
 .row1:after {
     content: '';
     clear: both;
 }
-
-
 .text-radio1 {
     float: left;
     font-size: 16px;
     margin-left: 10px;
+    text-align: center;
+    margin-top: 5%;
 }
-
 .row3 {
   margin-left: 5%;
 }
@@ -145,8 +156,6 @@ height: 100%;
   margin-left: 10%;
 }
 
-
-
 #inputText {
   margin-left: 5%;
   margin-right: 20%;
@@ -154,19 +163,19 @@ height: 100%;
 }
 
 .row5 {
-  margin-left: 60%;
-  margin-top: 1%;
   margin-bottom: 5%;
 }
-
 .row2 {
   width: 60%; 
   float: left;
 }
-
 .textRow2 {
   font-size: 14px;
   text-align: top;
+}
+.textRow9 {
+  font-size: 20px;
+  text-align: center;
 }
 
 .pro999:after {
@@ -175,52 +184,28 @@ height: 100%;
   clear: both;
 }
 #q_title {
-  margin-bottom: 2%;
-  margin-top: 1%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
-
 .q2 {
-  margin-top: 7%;
-  margin-bottom: 15%;
+  margin-top: 20%;
 }
-
-
-
 .text-q2 {
   font-size: 18px;
   margin-bottom: 1%;
 }
-
-.batton-q2 {
-  width: 100%;
-  margin-top: 15%;
-  margin-bottom: 5%;
-}
-.batton-q2:after {
-  content: '';
-   display: block;
-   clear: both;
-
-}
-
 .q-2-back {
   float: left;
   width: 40%;
 }
-
 .q-2-next {
   float: right;
-
   width: 40%;
-  
 }
-
 .check-q2{
   margin-top: 2%;
   font-size: 16px;
-
 }
-
 .q4 {
   margin-top: 10%;
   margin-bottom: 10%;
@@ -235,20 +220,11 @@ height: 100%;
   margin-bottom: 2%;
   text-align: left;
   padding: 2%;
-
 }
-
 .radio2:hover {
   /*background-color:rgba(211, 211, 211, 0.5);*/
   box-shadow: 0px 0px 10px #000000;
 }
-
-.button-q4{
-  margin-top: 10%;
-  margin-bottom: 5%;
-  
-}
-
 .check-q5 {
   border: 2px;
   box-shadow: 0px 0px 10px #000000;
@@ -259,28 +235,19 @@ height: 100%;
   margin-bottom: 2%;
   text-align: left;
   padding: 2%;
-
 }
-
 .q5 {
   margin-top: 10%;
   margin-bottom: 10%;
 }
-
 .text-q5 {
   font-size: 18px;
   text-align: left;
   margin-left: 5%;
-
 }
-
 .q4 label  {
   width: 100%
-
 }
-
-
-
 .q5 label {
   width: 100%
 }
@@ -288,98 +255,86 @@ height: 100%;
   box-shadow: 0px 0px 0px #000000;
   background-color:rgba(211, 211, 211, 0.5);
 }
-
-
-
 .right_footer:after  {
   content: '';
    display: block;
    clear: both;
 }
-
-
 .rf_img {
   float: left;
-
 }
-
 .rf_text {
   font-size: 14px;
 }
-
-
 .q3 {
   margin-top: 10%;
   margin-bottom: 10%;
   margin-left: 5%;
   margin-right: 5%;
- 
- 
 }
-
 
 /*.q3:after {
   content: '';
   display: block;
-  clear: both;*/
+  clear: both;
 
-}
+}*/
 
-.q3_street {
+/*.q3_street {
   font-size: 18px;
-  margin-bottom: 10%;
   margin-top: 2%;
-  
+  box-shadow: 0px 0px 5px #000000;*/
 }
-
-.q3_street {
-  box-shadow: 0px 0px 5px #000000;
- 
-}
-
 .q3_street:hover {
   box-shadow: 0px 0px 10px #000000;
- 
 }
-
 .q3_street:after {
   content: '';
   display: block;
   clear: both;
 }
-
 .q3_home {
   font-size: 18px;
- 
 }
-
-
-
 #q_additional_content {
   display: table;
   height: auto;
 }
-
 .right_img img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .right_text {
   margin-bottom: 5%;
   padding-left: 3%;
   padding-right: 3%;
 }
-
 .q3_street_img {
  float: left;
 }
-
 .q3_street_text {
   font-size: 18px;
   align: center;
-  padding-top: 10%;
 }
-
-
+.end {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.text-end {
+  font-size: 40px;
+  padding-top: 15%;
+  padding-bottom: 3%;
+}
+/*select {
+  background: transparent;
+   width: 500px;
+   padding: 5px;
+   font-size: 18px;
+   border: 1px solid #ccc;
+   height: 34px;
+}
+select:hover {
+  box-shadow: 0px 0px 10px #000000;
+}*/

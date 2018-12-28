@@ -407,6 +407,9 @@ img {
 	padding:55px 0;
 	text-align:center;
 }
+.client-part h2 {
+	color: #000;
+}
 .client-part-haead{
 	color:#fdfdfd;
 	font-size:28px;
@@ -906,10 +909,8 @@ border: 2px solid #fff;
 
 }
 .okno {
-	width: 70%;
-	height: 100%;
     text-align:center;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 5px;
 	box-shadow: 0px 0px 10px #000;
 	color: #1C1C1C;
@@ -920,24 +921,12 @@ border: 2px solid #fff;
 	
 }
 
-
-.calculator {
-	background-color: rgba(220, 220, 220, 0.5);
-	border: 3px solid #808080;
-	padding: 15px;
-	border-radius: 3px;
-	width: 70%;
-	height: 100%;
-	color: #1C1C1C;
-	font-size:18px;
-	margin-left: auto;
-    margin-right: auto;
 }
 .korzina {
     background-color: rgba(220, 220, 220, 0);
 	padding: 15px;
 	color: #1C1C1C;
-	font-size:18px;
+	font-size:16px;
 	width: 90%;
 	height: 100%;
 	margin-left: auto;
@@ -957,6 +946,7 @@ border: 2px solid #fff;
 
 
 table {
+	width: 100%;
     border: 2px solid #696969;
     border-collapse: collapse;
     background-color:rgba(255, 255, 255, 1);
@@ -972,7 +962,8 @@ table td, table th {
 }
 
 .knopky {
-   	margin-left: 50%;
+	   margin-left: 50%;
+	   margin-top: 3%;
 }
 
 .info {
@@ -1041,5 +1032,15 @@ table td, table th {
 	background:#7cc576;
 	cursor: pointer;
 }
+
+.alert {
+
+	display:none;
+	font-size:19px;
+	color:#1C1C1C;
+	text-align: center;
+ 
+ }
+ 
 
 

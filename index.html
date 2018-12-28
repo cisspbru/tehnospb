@@ -19,9 +19,9 @@
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/quis.css" rel="stylesheet" type="text/css">
-
-
-
+    <link rel="stylesheet" type="text/css" href="css/style6.css" />
+   
+    <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
     <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
@@ -54,7 +54,8 @@
                 <li>гарантия вашего спокойствия</li>
             </ul>
             <a class="link animated fadeInUp delay-1s servicelink" href="#service">o нас</a>
-            <a class="link animated fadeInUp delay-1s servicelink" href="javascript:PopUpShow()"  onclick="hideNav('nav');">Расчет стоимости</a>
+            <a class="link animated fadeInUp delay-1s servicelink" href="#client">расчитать стоимость</a>
+            <!--<a class="link animated fadeInUp delay-1s servicelink" href="javascript:PopUpShow()"  onclick="hideNav('nav');">Расчет стоимости</a>-->
         </div>
     </header>
     <!--header-end-->
@@ -175,6 +176,8 @@
                 </div>
             </div>
         </div>
+
+		
     </section>
     <!--main-section alabaster-end-->
 
@@ -308,131 +311,36 @@
     <section class="main-section client-part" id="client">
         <!--main-section client-part-start-->
         <div class="container">
-            <div class="calculator">
-                <h2>Расчет стоимости</h2>
-                <p class="leftPart">Выберите внутреннюю видеокамеру</p>
-                <div class="rightPart">
-                    <select id="kolichestvo1">
-                        <option value="nol"> </option>
-                        <option value="odin">HN-VD323IR 2MP HUNTER</option>
-                        <option value="dva">HN-MVD2710IR 2MP HUNTER</option>
-                        <option value="shest">HN-VD4624IR (3.6) 4MP HUNTER</option>
-                        <option value="sem">DS-2CE56D8T-IT1E 2MP HIKVISION</option>
-                        <option value="vosem">DS-2CE56D8T-VPITE 2MP HIKVISION</option>
-                    </select>
+            <div class="calculate animated fadeInLeft delay-07s">
+                <div class="c-title animated fadeInDown delay-07s"></br><h2>Калькулятор</h2></div>
+                <div class="c_1 animated fadeInDown delay-07s">
+                    <div class="text-calculate"> Для расчета стоимости видеонаблюдения воспользуйтесь калькулятором. Смета будет показана сразу при завершении опроса.</div>
+                    </br>
+                    <a class="link animated fadeInUp delay-1s servicelink" href="javascript:PopUpShow()"  onclick="hideNav('nav');">Расчет стоимости</a>
                 </div>
-                <br>
-                <p class="leftPart">Выберите количество внутренних видеокамер</p>
-                <div class="rightPart">
-                    <select id="kolichestvo5">
-                        <option value="nol"> </option>
-                        <option value="odin">1</option>
-                        <option value="dva">2</option>
-                        <option value="tri">3</option>
-                        <option value="chetyre">4</option>
-                        <option value="pyt">5</option>
-                        <option value="shest">6</option>
-                        <option value="sem">7</option>
-                        <option value="vosem">8</option>
-                        <option value="devat">9</option>
-                        <option value="desat">10</option>
-                    </select>
-                </div>
-                <br>
-                <p class="leftPart">Выберите уличную видеокамеру</p>
-                <div class="rightPart">
-                    <select id="kolichestvo6">
-                        <option value="nol"> </option>
-                        <option value="tri">HN-B0330IR 3MP HUNTER</option>
-                        <option value="chetyre">HN-B0330VFIRH-60 3MP HUNTER</option>
-                        <option value="pyt">HN-B4624IR (3.6) 4MP HUNTER</option>
-                        <option value="devat">DS-2CE16D8T-ITE 2MP HIKVISION</option>
-                        <option value="desat">DS-2CE16D8T-IT3ZE 2MP HIKVISION</option>
-                    </select>
-                </div>
-                <br>
-                <p class="leftPart">Выберите количество уличных видеокамер</p>
-                <div class="rightPart">
-                    <select id="kolichestvo8">
-                        <option value="nol"> </option>
-                        <option value="odin">1</option>
-                        <option value="dva">2</option>
-                        <option value="tri">3</option>
-                        <option value="chetyre">4</option>
-                        <option value="pyt">5</option>
-                        <option value="shest">6</option>
-                        <option value="sem">7</option>
-                        <option value="vosem">8</option>
-                        <option value="devat">9</option>
-                        <option value="desat">10</option>
-                    </select>
-                </div>
-                <br>
-                <p class="leftPart">Выберите видеорегистратор</p>
-                <div class="rightPart">
-                    <select id="kolichestvo2">
-                        <option value="nol"> </option>
-                        <option value="odin">HNVR-4480HL HUNTER</option>
-                        <option value="dva">HNVR-8420HL HUNTER</option>
-                        <option value="tri">HNVR-8120R V3 HUNTER</option>
-                        <option value="chetyre">HNVR-4120R HUNTER</option>
-                        <option value="pyt">DS-7204HQHI-K1 HIKVISION</option>
-                        <option value="pyt">DS-7208HQHI-K2/P HIKVISION</option>
-                    </select>
-                </div>
-                <br>
-                <p class="leftPart">Введите длину кабеля от регистратора до камер</p>
-                <div class="rightPart">
-                    <input type="number" id="kolichestvo3">
-                </div>
-                <br>
-                <p class="leftPart">Период хранения видеозаписи</p>
-                <div class="rightPart">
-                    <select id="kolichestvo4">
-                        <option value="nol"> </option>
-                        <option value="odin">1-2 недели</option>
-                        <option value="dva">2-3 недели</option>
-                        <option value="tri">4-5 недель</option>
-                    </select>
-                </div>
-                <br>
-                <p class="leftPart">Нужен ли микрофон</p>
-                <div class="rightPart">
-                    <select id="kolichestvo7">
-                        <option value="nol"> </option>
-                        <option value="da">Да</option>
-                        <option value="net">Нет</option>
-                    </select>
-                </div>
-                <br>
-                <br>
-                <div class="rightPart"><a class="buttonCool" onClick="raschitat();">Рассчитать стоимость</a> </div>
-                <div id="stoimost"></div>
-                <div style="display:none" id="button2"><a class="link animated fadeInUp delay-1s servicelink buttonCool" href="#team">Посмотреть смету</a></div>
             </div>
-        </div> 
+        </div> <!--class "container"-->
         <div class="b-container">
             <div class="b-popup" id="popup1">
                 <div class="b-popup-content">
-                    <a href="javascript:PopUpHide()" class="showPopup" onclick="showNav('nav');"><b>x</b></a>   
-                    <div class="okno">
+                    <a href="javascript:PopUpHide()" class="showPopup" onclick="showNav('nav');"><b>x</b></a> 
+                    <div class="okno" id="okno">
                         <div class="row1">
                             <div class="quiz1left">
-                                <div id="q_title">Куда требуется видеонаблюдение?
-                                </div>
+                                <div class="animated fadeInDown delay-03s" id="q_title">Куда требуется видеонаблюдение?</div>
                                 <!-- Progress bar  -->
-                                <div id="q_progress_bar" class="pro999">
+                                <div id="q_progress_bar" class="pro999 animated fadeInDown delay-03s">
                                     <div class="row2">
                                         <div class="w3-light-grey">
                                             <div class="w3-container w3-green w3-center" style="width:10%"></div>
                                         </div>
                                     </div>
-                                    <div class="textRow2">1-ый вопрос из 9</div>
+                                    <div class="textRow2 animated fadeInDown delay-03s">1-ый вопрос из 8</div>
                                 </div>
                                 <!-- //Progress bar  -->
                                 <div id="q_main_content">
                                     <div class="row3">
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInDown delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz1.png" alt="">
@@ -443,18 +351,18 @@
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInDown delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz2.png" alt="">
                                                 </div>
-                                                <div class="text-radio1">
+                                                <div class="text-radio1 animated fadeInDown delay-03s">
                                                     <input type="radio" class="option-input radio" name="example"  value="salon"/>
                                                     Салон
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInDown delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz3.png" alt="">
@@ -465,19 +373,18 @@
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInDown delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz4.png" alt="">
                                                 </div>
                                                 <div class="text-radio1">
-
                                                     <input type="radio" class="option-input radio" name="example" value="office" />
                                                     Офис
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInUp delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz5.png" alt="">
@@ -488,7 +395,7 @@
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInUp delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz6.png" alt="">
@@ -499,7 +406,7 @@
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInUp delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz7.png" alt="">
@@ -510,7 +417,7 @@
                                                 </div>
                                             </label>
                                         </div>
-                                        <div class="radio1">
+                                        <div class="radio1 animated fadeInUp delay-03s">
                                             <label>
                                                 <div class="img-radio1">
                                                     <img src="img/quiz/imgQuiz8.png" alt="">
@@ -521,24 +428,24 @@
                                                 </div>
                                             </label>
                                         </div>
-                                    </div>
-                                    <div class="row4">
-                                            <label>
-                                        <div class="textRow4">  
+                                    </div> <!--class row3-->
+                                    <div class="row4 animated fadeInUp delay-03s">
+                                        <label>
+                                            <div class="textRow4">  
                                                 <input type="radio" class="option-input radio" name="example"  value="yourVariant"/> Ваш вариант
-                                        </div>
-                                        <div class="inputRow4">
-                                            <input type="text" id="inputText">
-                                        </div>
-                                    </label>
+                                            </div>
+                                            <div class="inputRow4">
+                                                <input type="text" id="inputText">
+                                            </div>
+                                        </label>
                                     </div>
-                                </div>
+                                </div><!--id q_main_content-->
                                 <div id="q_button">
-                                    <div class="row5" ><button onclick="next('question2','forward');" class="input-btn">Далее</button></div>
+                                    <div class="row5 animated fadeInUp delay-03s" ><button onclick="next('question2','forward');" class="input-btn">Далее</button></div>
                                 </div>
                             </div>
                             <div id="q_additional_content">
-                                <div class="quiz1right">
+                                <div class="quiz1right animated fadeInRight delay-03s">
                                     <div class="right_img">
                                         <img src="img/q1.1.png" alt=""> 
                                     </div>
@@ -548,12 +455,12 @@
                                     </div>
                                 </div> 
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+                        </div> <!--/class row1-->
+                        
+                    </div> <!--/class okno-->
+                </div> <!--/class b-popup-content-->
+            </div> <!--/class b-popup-->
+        </div> <!--/class "b-container-->
     </section>
 
     <!--c-logo-part-end-->
@@ -561,18 +468,17 @@
         <!--main-section team-start-->
         <div class="container">
             <h2>Смета</h2>
-            <h6>Для создания или изменения сметы, пожалуйста, воспользуйтесь калькулятором.</h6>
-            <div class="korzina">
-                <div id="sum"></div>
-                </br>
-                <div style="display:none" id="test1"> <a class="link animated fadeInUp delay-1s servicelink buttonCool knopky" onClick="showButton('clip'); attachEstimate('1');" href="#contact">Прикрепить смету к контактной форме</a><div class="info">Смета будет отправлена на вашу почту.</div></div>
-
+            <div class ="korzina">
+                <h6>Для создания или изменения сметы, пожалуйста, воспользуйтесь калькулятором.</h6>
             </div>
-
-
+            <div class ="alert">
+                <div><h6>Для создания или изменения сметы, пожалуйста, воспользуйтесь калькулятором.</h6></div>
+            </div>            
+            <div id="sum"> </div> 
         </div>
     </section>
     <!--main-section team-end-->
+
     <section class="business-talking">
         <!--business-talking-start-->
         <div class="container">
@@ -782,9 +688,7 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/51328138" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-
-
-
+    
 </body>
 
 </html>
